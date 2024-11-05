@@ -52,7 +52,7 @@ def main():
     expected_lengths = {'md5': 32, 'sha1': 40, 'sha256': 64}
     if len(target_hash) != expected_lengths[algorithm]:
         print(f"Aviso: O comprimento do hash não corresponde ao formato {algorithm}")
-        if not input("Continuar mesmo assim? (s/n): ").lower().startswith('s'):
+        if not input("Continuar mesmo assim? (y/n): ").lower().startswith('y'):
             return
     
     print("\nIniciando ataque de dicionário...")
