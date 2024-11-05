@@ -9,14 +9,14 @@ Este projeto foi criado apenas para fins educacionais, demonstrando:
 - A importância de senhas fortes
 
 ## 🔧 Tecnologias Utilizadas
-- Python 3.x
+- Python 3
 - Bibliotecas padrão do Python:
   - `hashlib` (para funções de hash)
   - `time` (para medição de tempo)
   - `typing` (para type hints)
 
 ## 📋 Pré-requisitos
-- Python 3.x instalado
+- Python 3 instalado
 - Arquivo wordlist (lista de palavras)
   - No Kali Linux, você pode usar: `/usr/share/wordlists/rockyou.txt`
   - Para descompactar o rockyou.txt:
@@ -47,7 +47,7 @@ Digite o caminho do arquivo wordlist: /caminho/para/sua/wordlist.txt
 ```
 
 ## ⚠️ Aviso 
-Este programa foi desenvolvido apenas para fins educacionais e de aprendizado. O uso desta ferramenta para quebrar senhas sem autorização é ilegal e antiético.
+Este programa foi desenvolvido apenas para fins educacionais e de aprendizado.
 
 ## 📌 Possíveis Melhorias
 - Implementar ataque de força bruta
