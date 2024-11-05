@@ -18,11 +18,10 @@ Este projeto foi criado apenas para fins educacionais, demonstrando:
 ## 📋 Pré-requisitos
 - Python 3 instalado
 - Arquivo wordlist (lista de palavras)
-  - No Kali Linux, você pode usar: `/usr/share/wordlists/rockyou.txt`
-  - Para descompactar o rockyou.txt:
+  - Na sua maquina, você pode usar o arquivo "senhas-mais-usadas.txt" como um exemplo.
+  - Exemplo de caminho:
     ```bash
-    cd /usr/share/wordlists
-    sudo gzip -d rockyou.txt.gz
+    C:\Users\Usuario\Downloads\senhas-mais-usadas.txt
     ```
 
 ## 🚀 Como Executar
@@ -43,7 +42,7 @@ Algoritmos de hash disponíveis: md5, sha1, sha256
 
 Digite o algoritmo de hash (padrão: md5): md5
 Digite o hash para quebrar: 5f4dcc3b5aa765d61d8327deb882cf99
-Digite o caminho do arquivo wordlist: /caminho/para/sua/wordlist.txt
+Digite o caminho do arquivo de lista: /caminho/para/sua/lista.txt
 ```
 
 ## ⚠️ Aviso 
